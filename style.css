@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #4d878fc0, #ffffff);
+    font-family: "poppins";
+  }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-title{
+    padding: 2rem 1rem;
+    
+}
+
+h1 {
+    background-color: #4d878fc0;
+    text-align: center;
+   border-style: solid;
+    width: 300px;
+    padding: 15px;
+    border-radius: 25px;
+  }
+#inputForm {
+    margin-top: 80px;
+    padding: 50px;
+    display: flex;
+    background-color: rgb(240, 255, 246);
+    border-radius: 40px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 550px;
+    gap: 40px;
+  }
+
+#inputText,
+  button {
+    height: 40px;
+    width: 150px;
+    border-radius: 12px;
+    
+  }
+  button{
+    color: #ffffff;
+    border: none;
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+  #inputShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+    padding: 15px;
+    font-family: "poppins";
+    text-transform: capitalize;
+    border-radius: 10px;
+    border-style: solid;
+    background: linear-gradient(to right, #E5E5BE, #003973);
+    display: none;
+
+  }
+  
+  #inputShow img {
+    
+    padding: 50px;
+    height: 350px;
+    
+  }
+
+  .info-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+.info-text{
+    display: flex;
+    gap: 15px;
+}
